@@ -1,8 +1,3 @@
----
-title: ACECTF 2025
-
----
-
 # ACECTF 2025
 
 ## Forensics
@@ -23,7 +18,9 @@ So, we just change it as provided below.
 
 ![brokenheader4](https://hackmd.io/_uploads/Hy36Xe1oJe.png)
 
+![brokenheaderflag](https://hackmd.io/_uploads/By-yEgkoJg.png)
 
+Flag: ACECTF{h34d3r_15_k3y}
 
 ### Hidden in the traffic
 
@@ -462,7 +459,12 @@ else:
 ```
 
 Casually running it will ask for a pin code, which is `ACE@SE7EN`, and will reveal the flag.
-
+```
+It looks like the box is locked with some kind of password, determine the pin to open the box!
+What is the pin code?ACE@SE7EN
+Looks good to me...
+I guess I'll generate a flag
+```
 `ACE{e2e3619b630b3be9de762910fd58dba7}`
 
 ## Miscellaneous
